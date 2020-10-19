@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>html2</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script type="text/javascript" src="js/tabla.js"></script>
+</head>
+
+<body>
+    <header class="header-container">
+        <figure class="left-box">
+            <img class="fotoheader" src="images/logo.jpg" alt="Pelotas de los distintos deportes">
+        </figure>
+        <figure class="right-box">
+            <img id="mostrar-menu" class="hamburguesa" src="images/btn.png" alt="Menu desplegable">
+        </figure>
+        <nav class="navpc">
+            <ul>
+                <li class="boton"><a href="index.html">Home</a></li>
+                <li class="boton"><a href="html2.html">Info</a></li>
+                <li class="boton"><a href="html1.html">Deportes</a></li>
+            </ul>
+        </nav>
+    </header>
+    <nav id="desplegable" class="botonera">
+        <ul>
+            <li class="boton"><a href="index.html">Home</a></li>
+            <li class="boton"><a href="html2.html">Info</a></li>
+            <li class="boton"><a href="html1.html">Deportes</a></li>
+        </ul>
+    </nav>
+    <article class="caja">
+            <section class="razones">
+                <h1>Razones por las que el deporte debe formar parte de tu vida</h1>
+                <p> ¿Todavía no te animas a hacer deporte? Si necesitas motivos para ponerte en marcha, vamos a darte
+                    varios
+                    que seguro que te convencen. Porque aparte de ser necesario para tu salud, el ejercicio te aportará
+                    tantos beneficios que no querrás dejar de practicarlo. ¡Toma nota!
+                </p>
+            </section>
+            <section class="lista2">
+                <ol>
+                    <li>Aumenta la felicidad porque al practicar deporte se libera endorfinas,que te harán sentir un
+                        gran
+                        bienestar.
+                    </li>
+                    <li>Es un analgésico natural con el que se puede aliviar el dolor y promoverla relajación muscular.
+                    </li>
+                    <li>Mejora la salud de tus articulaciones y aumentará tu flexibilidad.</li>
+                    <li>Alivia el estrés y/o la ansiedad.</li>
+                    <li>Cuida la salud de tu corazón y previene las enfermedades cardiovasculares.</li>
+                    <li>Disminuye el riesgo de sufrir osteoporosis.</li>
+                    <li>Puede aliviar los dolores de la menstruación gracias a la mejora de lacirculación sanguínea.
+                    </li>
+                    <li>Mejora la memoria y la habilidad de aprendizaje.</li>
+                    <li>Ayuda a mantener un peso saludable.</li>
+                    <li>Afecta positivamente a la calidad del sueño y el descanso.</li>
+                    <li>Reduce la agresividad y la ira gracias a la liberación de tensiones.</li>
+                    <li>Incrementa la resistencia y los niveles de energía.</li>
+                    <li>Mejora la concentración y la resolución de problemas, por lo que rendirás más en el trabajo.
+                    </li>
+                    <li>Aumenta la esperanza de vida.</li>
+                </ol>
+            </section>
+    </article>
+    <section class="main-container">
+        <h2>Transformate en uno de ellos</h2>
+        <div class="contenedor-tabla">
+            <table class="tabla">
+                <thead>
+                    <tr>
+                        <th>Deporte</th>
+                        <th>Quien es</th>
+                        <th>Club en los que participo</th>
+                        <th>Informacion peronal</th>
+                        <th>Foto</th>
+                        <th>Eliminar</th>
+                        <th>Editar</th>
+                    </tr>
+                </thead>
+                <tbody id="tabla">
+                </tbody>
+            </table>
+        </div>
+        <div class="contenedor-filtro">
+            <h3>FILTRO:</h3>
+            <input id="input-filtro" placeholder="Filtrar por deporte" type="text">
+            <button id="btn-filtro">Filtrar</button>
+            <button id="btn-sacar-filtro">X</button>
+        </div>
+        <div>
+            <input id="inputdeporte" type="text" placeholder="Deporte">
+            <input id="inputdeportista" type="text" placeholder="Deportista">
+            <input id="inputclub" type="text" placeholder="Club">
+            <input id="inputinformacion" type="text" placeholder="Informacion">
+            <input id="inputfoto" type="text" placeholder="Foto">
+            <h3 id="mensaje"></h3>
+        </div>
+        <button id="btn-agregar">Agregar 1</button>
+        <button id="btn-agregar3">Agregar 3</button>
+        <button id="btn-reset">Borrar tabla</button>
+    </section>
+    <footer class="footer-container">
+        <div class="buscanos">
+            Buscanos en nuestras redes sociales
+        </div>
+        <figure class="redes">
+            <img class="instagram" src="images/instagram.png" alt="logo de instagram">
+            <img class="twitter" src="images/twitter.png" alt="logo de twitter">
+            <img class="facebook" src="images/facebook.png" alt="logo de facebook">
+        </figure>
+    </footer>
+</body>
+
+</html>
