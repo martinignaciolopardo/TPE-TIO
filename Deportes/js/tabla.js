@@ -113,14 +113,14 @@ document.addEventListener("DOMContentLoaded", function () {
         })
         .then(function(respuesta){
             if(!respuesta.ok){
-                console.log("error")
+                contenedor.innerHTML = "Error";
             }
             else {
                 getData();
             }
         })
         .catch(function(e){
-            console.log(e)
+            contenedor.innerHTML = "Error 404";
         })
     }
     /*   GET   */
@@ -200,7 +200,7 @@ document.addEventListener("DOMContentLoaded", function () {
             
         })
         .catch(function(e){
-            console.log(e);
+            contenedor.innerHTML = "Error 404";
         })
     }
 

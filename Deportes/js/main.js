@@ -1,29 +1,26 @@
-document.addEventListener("DOMContentLoaded", function ()
-     {
-        "use strict";
+document.addEventListener('DOMContentLoaded', captcha)
 
-        document.querySelector("#mostrar-menu").addEventListener("click",  function() 
-        {
-            document.querySelector("#desplegable").classList.toggle("desplegable");
-        });
 
-        document.querySelector("#enviar").addEventListener("click", validarcaptcha);
+function captcha() {
+    "use strict"
+    let random = Math.floor(Math.random(10000 - 100000) * 100000);
+    let captcha = document.getElementById('captcha');
+    captcha.value = random;
 
-        function validarcaptcha(e) 
-        {
-            e.preventDefault();
-            let captcha = document.querySelector("#input-captcha").value;
-            captcha = captcha.toLowerCase();
-            if (captcha == "just example") 
-            {
-                let formularioenviado = document.querySelector("#resultado");
-                formularioenviado.innerHTML = "¡Captcha correcto!";
-            }
-            else 
-            {
-                let error = document.querySelector("#resultado");
-                error.innerHTML = "Error, captcha incorrecto.";
-            }
-        };
+    function validacion() {
+        event.preventDefault()
+        let usuario = document.getElementById('input-captcha').value;
+        let mensaje = document.getElementById('resultado');
+        if (usuario != random) {
+            mensaje.innerHTML = "Captcha incorrecto";
+        } else {
+            mensaje.innerHTML = "Muchas gracias!";
+        }
+
+
     }
-);
+
+
+    let boton = document.getElementById('enviar');
+    boton.addEventListener('click', validacion);
+}
