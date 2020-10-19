@@ -29,6 +29,7 @@ img {
 }
 /*------------------------------------HEADER------------------------------------*/
 .header-container {
+    font-weight: bold;
     display: flex;
     border-bottom: solid 1px coral;
     transition: 0.7s ease-out;
