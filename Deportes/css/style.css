@@ -154,11 +154,12 @@ img {
 
 /*------------------------------------FOOTER------------------------------------*/
 .footer-container {
-    border-radius: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-top: 50px;
+    background: black;
+    color: white;
 }
 .buscanos, .redes {
     display: flex;
@@ -170,16 +171,9 @@ img {
     width: 40%;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: white;
-    border-right: solid 5px red;
-    border-top-right-radius: 20px;
-    border-top-left-radius: 20px;
 }
 .redes {
     width: 40%;
-    border-bottom: solid 5px red;
-    border-right: solid 5px red;
-    border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px;
 }
 .instagram, .twitter, .facebook {
     width: 15%;
