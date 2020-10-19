@@ -283,15 +283,28 @@ thead {
     background-color: rgb(231, 231, 231);
 }
 @media only screen and (min-width: 600px) {
+    .header-container{
+        display: flex;
+        align-items: center;
+    }
+
     .right-box{
         display: none;
     }
     .navpc{
-        display: flex;
-        justify-content: center;
         font-size: 200%;
-        align-items: center;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
     }
+
+
+    .navpc ul{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
     .botonera {
         display: none;
     }
@@ -323,6 +336,11 @@ thead {
      }
     .raffle-subcontainer {
         width: 30%;
+    }
+
+    .fotoheader{
+        width: 150px;
+        height: 150px;
     }
 
 }
