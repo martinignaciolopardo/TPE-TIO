@@ -3,7 +3,7 @@
 }
 /*------------------------------------BODY------------------------------------*/
 body {
-    background-color:  white;
+    background-color:  gray;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
 }
@@ -27,7 +27,7 @@ img {
 .header-container {
     font-weight: bolder;
     display: flex;
-    border-bottom: solid 1px coral;
+    border-bottom: solid 1px rgb(223, 80, 28);
     transition: 0.7s ease-out;
     margin-bottom: 10px;
     justify-content: space-between;
@@ -53,7 +53,7 @@ img {
     display: none;
 }
 .botonera a{
-    color: black;
+    color: white;
     padding: 5px;
     font-size: 60%;
     border-top: 1.5px solid transparent;
@@ -92,14 +92,14 @@ img {
     border: 2px solid black;
 }
 .left-subcontainer {
-    background-color:  #fff176;
+    background-color:  #b2f8a0;
 }
 .center-subcontainer {
-    background-color:  #fff176;
+    background-color:  #b2f8a0;
     margin: 20px 0;
 }
 .raffle-subcontainer {
-    background-color: #a5ffd6;
+    background-color: #77053a;
     font-size: 25px;
 }
 .topraffle {
@@ -191,7 +191,7 @@ img {
 .deporte{
     border: solid black 2px;
     padding: 30px;
-    background-color: #fff176;
+    background-color: #b2f8a0;
     margin-top: 10px;
 }
 /*----------------------------------------------------HTML2-CONTENT---------------------------------------------------*/
@@ -202,14 +202,14 @@ img {
 }
 .razones {
     padding: 15px;
-    background-color: #fff176;
+    background-color: #b2f8a0;
     border: solid 1px black;
     border-radius: 10px;
     margin-bottom: 5px;
 }
 .lista2 {
     padding: 15px;
-    background-color: #fff176;
+    background-color: #b2f8a0;
     border: solid 1px black;
     border-radius: 10px;
     width: 80%;
