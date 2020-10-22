@@ -1,15 +1,15 @@
     <article class="caja">
         <section class="razones">
-            <h1>Razones por las que el deporte debe formar parte de tu vida</h1>
+            <h1>Razones por las que el deporte tiene que formar parte de tu vida</h1>
             <p> ¿Todavía no te animas a hacer deporte? Si necesitas motivos para ponerte en marcha, vamos a darte
                 varios
-                que seguro que te convencen. Porque aparte de ser necesario para tu salud, el ejercicio te aportará
-                tantos beneficios que no querrás dejar de practicarlo. ¡Toma nota!
+                que seguro te van a convencer. Porque aparte de ser necesario para tu salud, el ejercicio te va a aportar
+                tantos beneficios que no vas a querer dejar de practicarlo.
             </p>
         </section>
         <section class="lista2">
             <ol>
-                <li>Aumenta la felicidad porque al practicar deporte se libera endorfinas,que te harán sentir un
+                <li>Aumenta la felicidad porque al practicar deporte se libera endorfinas,que te van a hacer sentir un
                     gran
                     bienestar.
                 </li>
