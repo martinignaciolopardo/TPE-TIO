@@ -11,6 +11,7 @@ class Index{
     function home(){
         $this->smarty->assign("title", $this->title);
         $this->smarty->display('./templates/home.tpl');
+        $this->smarty->display('./templates/footer.tpl');
     }
 }
 
