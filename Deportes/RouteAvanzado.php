@@ -10,8 +10,10 @@
     $r = new Router();
 
     // PUBLIC CONTROLLER
+    $r->addRoute("", "GET", "publicController", "homeController");
     $r->addRoute("home", "GET", "publicController", "homeController"); //vista home
-
+    $r->addRoute("info", "GET", "publicController", "infoController");
+    $r->addRoute("deportes", "GET", "publicController", "sportsController");
     //Ruta por defecto.
     $r->setDefaultRoute("publicController", "homeController");
 

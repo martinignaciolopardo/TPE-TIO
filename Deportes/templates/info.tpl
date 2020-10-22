@@ -1,37 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>html2</title>
-    <link rel="stylesheet" href="css/style.css">
-    <script type="text/javascript" src="js/tabla.js"></script>
-</head>
-
-<body>
-    <header class="header-container">
-        <figure class="left-box">
-            <img class="fotoheader" src="images/logo.jpg" alt="Pelotas de los distintos deportes">
-        </figure>
-        <figure class="right-box">
-            <img id="mostrar-menu" class="hamburguesa" src="images/btn.png" alt="Menu desplegable">
-        </figure>
-        <nav class="navpc">
-            <ul>
-                <li class="boton"><a href="index.html">Home</a></li>
-                <li class="boton"><a href="html2.html">Info</a></li>
-                <li class="boton"><a href="html1.html">Deportes</a></li>
-            </ul>
-        </nav>
-    </header>
-    <nav id="desplegable" class="botonera">
-        <ul>
-            <li class="boton"><a href="index.html">Home</a></li>
-            <li class="boton"><a href="html2.html">Info</a></li>
-            <li class="boton"><a href="html1.html">Deportes</a></li>
-        </ul>
-    </nav>
     <article class="caja">
         <section class="razones">
             <h1>Razones por las que el deporte debe formar parte de tu vida</h1>
@@ -114,16 +80,3 @@
             <button class="btn" id="btn-reset">Borrar tabla</button>
         </div>
     </section>
-    <footer class="footer-container">
-        <div class="buscanos">
-            Buscanos en nuestras redes sociales
-        </div>
-        <figure class="redes">
-            <img class="instagram" src="images/instagram.png" alt="logo de instagram">
-            <img class="twitter" src="images/twitter.png" alt="logo de twitter">
-            <img class="facebook" src="images/facebook.png" alt="logo de facebook">
-        </figure>
-    </footer>
-</body>
-
-</html>
