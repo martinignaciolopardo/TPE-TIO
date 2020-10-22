@@ -1,37 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>html1</title>
-    <link rel="stylesheet" href="css/style.css">
-    <script type="text/javascript" src="js/main.js"></script>
-</head>
-
-<body class="principal-content">
-    <header class="header-container">
-        <figure class="left-box">
-            <img class="fotoheader" src="images/logo.jpg" alt="Pelotas de los distintos deportes">
-        </figure>
-        <figure class="right-box">
-            <img id="mostrar-menu" class="hamburguesa" src="images/btn.png" alt="Menu desplegable">
-        </figure>
-        <nav class="navpc">
-            <ul>
-                <li class="boton"><a href="index.html">Home</a></li>
-                <li class="boton"><a href="html2.html">Info</a></li>
-                <li class="boton"><a href="html1.html">Deportes</a></li>
-            </ul>
-        </nav>
-    </header>
-    <nav id="desplegable" class="botonera">
-        <ul>
-            <li class="boton"><a href="index.html">Home</a></li>
-            <li class="boton"><a href="html2.html">Info</a></li>
-            <li class="boton"><a href="html1.html">Deportes</a></li>
-        </ul>
-    </nav>
     <article>
         <h1>
             Elegi lo mejor para vos
@@ -46,8 +12,8 @@
                     En la mayoría de las modalidades, los automóviles deben completar 
                     un recorrido en el menor tiempo posible, o bien recorrer un circuito 
                     la mayor cantidad de veces en un tiempo fijo. Existen otras disciplinas
-                     que tienen objetivos distintos, por ejemplo el drifting, donde los pilotos
-                      deben realizar derrapes espectaculares.
+                    que tienen objetivos distintos, por ejemplo el drifting, donde los pilotos
+                    deben realizar derrapes espectaculares.
                 </p>
             </div>
         </section>
@@ -185,18 +151,3 @@
                 </p>
             </div>
         </section>
-        
-    </article>
-    <footer class="footer-container">
-        <div class="buscanos">
-            Buscanos en nuestras redes sociales
-        </div>
-            <figure class="redes">
-                <img class="instagram" src="images/instagram.png" alt="logo de instagram">
-                <img class="twitter" src="images/twitter.png" alt="logo de twitter">
-                <img class="facebook" src="images/facebook.png" alt="logo de facebook">
-            </figure>
-    </footer>
-</body>
-
-</html>
